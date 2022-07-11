@@ -1,9 +1,17 @@
-# React Starter Pack
+# Todo App with react
 
-To use this template click `Use this template`
+Technologies used:
+- fetch
+- react
+- react hooks
 
-### Available Scripts
 
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+- You can create new todos on Enter in input. 
+- Here are:
+   - number of not completed todos in   
+   - ability to toggle the `completed` status using a checkbox.
+   - ability to toggle the completed status of all the todos
+   - ability to switch between `All`/`Active`/`Completed`
+   - ability to remove an item
+   - ability to clear completed todos
+   - double click on the TODO title makes it editable (`Enter` and `onBlur` saves changes, odo title can't be empty! If you click `Enter` with empty todo editing input, this todo will be removed; `Ecs` cancels editing)
