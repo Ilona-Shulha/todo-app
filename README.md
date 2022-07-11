@@ -6,8 +6,9 @@ Technologies used:
 - react hooks
 
 
-- You can create new todos on Enter in input. 
-- Here are:
+
+Here are:
+   - ability to create new todos on Enter in input.
    - number of not completed todos in   
    - ability to toggle the `completed` status using a checkbox.
    - ability to toggle the completed status of all the todos
