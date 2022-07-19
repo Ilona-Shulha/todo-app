@@ -16,3 +16,5 @@ Here are:
    - ability to remove an item
    - ability to clear completed todos
    - double click on the TODO title makes it editable (`Enter` and `onBlur` saves changes, odo title can't be empty! If you click `Enter` with empty todo editing input, this todo will be removed; `Ecs` cancels editing)
+
+https://ilona-shulha.github.io/todo-app/
