@@ -14,13 +14,13 @@ function App() {
   const [checkedAllCompleted, setCheckedAllCompleted] = useState(false);
   const [hiddenBtnDelCompleted, setHiddenBtnDelCompleted] = useState(false);
   const [countUncompleted, setCountUncompleted] = useState(0);
-  const [userId] = useState(1);
+  const [userId] = useState(3860);
 
-  useEffect(() => {
-    getUser(userId)
-      .then(user => setUserName(user.name.split(' ')[0]));
-    onChangeTodos();
-  }, []);
+//   useEffect(() => {
+//     getUser(userId)
+//       .then(user => setUserName(user.name.split(' ')[0]));
+//     onChangeTodos();
+//   }, []);
 
   useEffect(() => {
     setCheckedAllCompleted(allTodos.every(todo => todo.completed));
@@ -102,8 +102,7 @@ function App() {
     <section className="todoapp">
       <header className="header">
         <h1>
-          {`${userName}'s todos`}
-
+          You's todos
         </h1>
         <TodoApp
           userId={userId}
