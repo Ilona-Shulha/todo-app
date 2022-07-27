@@ -14,7 +14,7 @@ function App() {
   const [checkedAllCompleted, setCheckedAllCompleted] = useState(false);
   const [hiddenBtnDelCompleted, setHiddenBtnDelCompleted] = useState(false);
   const [countUncompleted, setCountUncompleted] = useState(0);
-  const [userId] = useState(3860);
+  const [userId] = useState(1);
 
   useEffect(() => {
     getUser(userId)
