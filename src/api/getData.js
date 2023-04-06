@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 export const request = (url, options) => fetch(`https://mate.academy/students-api${url}`, options)
   .then((response) => {
     if (!response.ok) {
